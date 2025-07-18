@@ -1,0 +1,30 @@
+
+
+
+.contact {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.contact_title {
+    color: rgb(44, 62, 80);
+}
+
+.contact_title::before {
+    background-color: rgb(44, 62, 80);;
+}
+
+.contact_title::after {
+    color: rgb(44, 62, 80);
+    background-color: white;
+}
+
+.contact_container {
+    width: 66%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.message {
+    height: 150px;
+}

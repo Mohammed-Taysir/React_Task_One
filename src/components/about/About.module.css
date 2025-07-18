@@ -1,0 +1,33 @@
+
+.about {
+    background-color: #1abc9c;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.about_title{
+    color: white;
+}
+
+.about_title::before {
+    background-color: white;
+}
+
+.about_title::after {
+    color: white;
+    background-color: #1abc9c;
+}
+
+.about_container {
+    width: 66%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.free_download {
+    width: fit-content;
+    padding: 15px 30px;
+    margin-left: auto;
+    margin-right: auto;
+    border-width: 2px;
+}
