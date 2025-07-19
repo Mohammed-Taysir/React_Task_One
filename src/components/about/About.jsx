@@ -5,7 +5,7 @@ function About() {
     return <section className = {style.about}>
         
             <h2 className=  {`${style.about_title} main_title position-relative`}>About</h2>
-            <div class = {style.about_container}>
+            <div className = {style.about_container}>
                 <div className="row">
                     <div className="col-lg-6">
                         <p className = "text-white fs-5">
@@ -13,7 +13,7 @@ function About() {
                         </p>
                     </div>
                     <div className="col-lg-6">
-                        <p class = "text-white fs-5">
+                        <p className = "text-white fs-5">
                             Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization.
                         </p>
                     </div>
